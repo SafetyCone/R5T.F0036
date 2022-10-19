@@ -17,7 +17,7 @@ namespace System
 			TServicesConfigurer servicesConfigurer)
 			where TServicesConfigurer : class, ISynchronousServicesConfigurer
 		{
-			return Instances.ServicesConfigurerOperator.UseServicesConfigurerInstanceSync(
+			return Instances.ServicesConfigurerOperator.UseServicesConfigurerInstance_Synchronous(
 				servicesBuilder,
 				servicesConfigurer);
 		}
